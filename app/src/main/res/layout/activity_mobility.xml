@@ -1,0 +1,120 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="voltar"
+            android:id="@+id/btnVoltar"
+            android:textColor="#BF360C"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/btParar"
+            android:layout_alignStart="@+id/btParar"
+            android:onClick="setContentView" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo"
+            android:background="@mipmap/icone"
+            android:layout_alignTop="@+id/btnVoltar"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2" />
+
+        <TextView
+            android:text="@string/mobilidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#5c04e3"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please, where do I can find a taxi rank?"
+            android:id="@+id/btTaxi"
+            android:onClick="BotaoTaxi"
+            android:background="#04e33e"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where do there a delegacy here?"
+            android:id="@+id/btDelegacy"
+            android:onClick=""
+            android:background="#5c04e3"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_below="@+id/btTaxi"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where do there a mall near?"
+            android:id="@+id/btShopping"
+            android:onClick=""
+            android:background="#00796B"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_above="@+id/btTaxi"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btParar"
+            android:layout_marginTop="32dp"
+            android:onClick="BotaoParar"
+            android:background="#BDBDBD"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

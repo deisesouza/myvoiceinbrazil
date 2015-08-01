@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="40dp"
-    android:background="#efefef"
+    android:background= "#efefef"
     android:gravity="center"
     android:fillViewport="true">
 
@@ -37,11 +37,15 @@
 
 
             <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/btn1"
                 android:background="@drawable/img_01"
                 android:layout_column="1" />
 
             <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/btn2"
                 android:background="@drawable/img_02"
                 android:layout_column="2" />
@@ -52,11 +56,15 @@
         <TableRow>
 
             <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/btn3"
                 android:background="@drawable/img_03"
                 android:layout_column="1" />
 
             <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/btn4"
                 android:background="@drawable/img_04"
                 android:layout_column="2" />
@@ -67,14 +75,19 @@
         <TableRow>
 
             <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/btn5"
                 android:background="@drawable/img_05"
                 android:layout_column="1" />
 
             <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/btn6"
                 android:background="@drawable/img_06"
-                android:layout_column="2" />
+                android:layout_column="2"
+                android:onClick="Sair" />
 
         </TableRow>
 

@@ -28,6 +28,13 @@
                             android:src="@drawable/logo"
                             android:contentDescription="@string/logomarca" />
 
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/webView"
+                            android:layout_gravity="center_horizontal" />
+
+
                     </LinearLayout>
 
 
@@ -48,34 +55,10 @@
                     </TableRow>
 
                     <!-- ROW2 -->
-                    <TableRow>
 
-                        <Button
-                            android:id="@+id/btn3"
-                            android:background="@drawable/img_03"
-                            android:layout_column="1" />
-
-                        <Button
-                            android:id="@+id/btn4"
-                            android:background="@drawable/img_04"
-                            android:layout_column="2" />
-
-                    </TableRow>
 
                     <!-- ROW3 -->
-                    <TableRow>
 
-                        <Button
-                            android:id="@+id/btn5"
-                            android:background="@drawable/img_05"
-                            android:layout_column="1" />
-
-                        <Button
-                            android:id="@+id/btn6"
-                            android:background="@drawable/img_06"
-                            android:layout_column="2" />
-
-                    </TableRow>
 
 
                 </TableLayout>

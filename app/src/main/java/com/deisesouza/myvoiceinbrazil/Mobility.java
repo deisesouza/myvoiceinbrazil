@@ -55,7 +55,7 @@ public class Mobility extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    //chamada do método do botao
+    //chamada do método do botao Taxi
     public void BotaoTaxi(View view) {
         try {
             mp.stop();
@@ -64,15 +64,15 @@ public class Mobility extends ActionBarActivity {
             mp.setLooping(false);
         }finally{}
 
-    }//fim do método do botao
+    }//fim do método do botao Taxi
 
-    //chamada do método do botao
+    //chamada do método do botao STOP
     public void BotaoParar(View view) {
         try {
             mp.stop();
         }finally{}
 
-    }//fim do método do botao
+    }//fim do método do botao stop
 
 
 }

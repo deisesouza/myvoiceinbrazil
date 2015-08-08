@@ -55,16 +55,6 @@ public class Mobility extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    //chamada do método do botao Taxi
-    public void BotaoTaxi(View view) {
-        try {
-            mp.stop();
-            mp = MediaPlayer.create(this, R.raw.teste_taxi);
-            mp.start();
-            mp.setLooping(false);
-        }finally{}
-
-    }//fim do método do botao Taxi
 
     //chamada do método do botao STOP
     public void BotaoParar(View view) {
@@ -75,4 +65,69 @@ public class Mobility extends ActionBarActivity {
     }//fim do método do botao stop
 
 
-}
+
+    //chamada do método do botao Taxi
+    public void BotaoTaxi(View view) {
+        try {
+            mp.stop();
+            mp = MediaPlayer.create(this, R.raw.taxi);
+            mp.start();
+            mp.setLooping(false);
+        }finally{}
+
+    }//fim do método do botao Taxi
+
+
+
+    //chamada do método do botao Delegacy
+    public void BotaoDelegacy(View view) {
+        try {
+            mp.stop();
+            mp = MediaPlayer.create(this, R.raw.delegacy);
+            mp.start();
+            mp.setLooping(false);
+        }finally{}
+
+    }//fim do método do botao Delegacy
+
+
+
+    //chamada do método do botao Plane
+    public void BotaoPlane(View view) {
+        try {
+            mp.stop();
+            mp = MediaPlayer.create(this, R.raw.plane);
+            mp.start();
+            mp.setLooping(false);
+        }finally{}
+
+    }//fim do método do botao Plane
+
+
+    //chamada do método do botao shopping
+    public void BotaoShopping(View view) {
+        try {
+            mp.stop();
+            mp = MediaPlayer.create(this, R.raw.shopping);
+            mp.start();
+            mp.setLooping(false);
+        }finally{}
+
+    }//fim do método do botao shopping
+
+
+    //chamada do método do botao shopping
+    public void BotaoOnde(View view) {
+        try {
+            mp.stop();
+            mp = MediaPlayer.create(this, R.raw.onde);
+            mp.start();
+            mp.setLooping(false);
+        }finally{}
+
+    }//fim do método do botao shopping
+
+
+
+
+}//fim da classe

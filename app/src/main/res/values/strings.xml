@@ -1,17 +1,22 @@
 <resources>
     <string name="app_name">VoiceBR</string>
-
-    <string name="mobilidade">MOBILITY</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_mobility">Mobility</string>
-    <string name="title_activity_teste">Teste</string>
     <string name="logomarca">logomarca</string>
     <string name="logomarca2">logomarca</string>
+
+
+    <!-- TELA MOBILITY -->
+    <string name="mobilidade">MOBILITY</string>
+    <string name="title_activity_mobility">Mobility</string>
+    <string name="voice">Your Voice In Brazil</string>
     <string name="taxirank">Please, where do I can find a taxi rank?</string>
-    <string name="delegacy">Where do there a delegacy here?</string>
+    <string name="delegacy">Where can I do find a police station?</string>
     <string name="shopping">Where do there a mall near?</string>
+    <string name="plane">What time does the plane take off?</string>
+    <string name="onde">Where am I?</string>
     <string name="stop">STOP</string>
     <string name="voltar">VOLTAR</string>
-    <string name="novo1">Novo texto aqui!</string>
-    <string name="novo2">Novo texto aqui!</string>
+
+    <!-- TELA FOOD & DRINK -->
+
 </resources>

@@ -21,10 +21,6 @@
             android:name=".Mobility"
             android:label="@string/title_activity_mobility" >
         </activity>
-        <activity
-            android:name=".Teste"
-            android:label="@string/title_activity_teste" >
-        </activity>
     </application>
 
 </manifest>

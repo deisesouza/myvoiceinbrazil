@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:text="@string/delegacy"
             android:id="@+id/btDelegacy"
-            android:onClick=""
+            android:onClick="BotaoDelegacy"
             android:background="#5c04e3"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
@@ -77,14 +77,14 @@
             android:layout_height="wrap_content"
             android:text="@string/shopping"
             android:id="@+id/btShopping"
-            android:onClick=""
+            android:onClick="BotaoShopping"
             android:background="#00796B"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:typeface="sans"
-            android:layout_below="@+id/novo2"
-            android:layout_alignLeft="@+id/novo2"
-            android:layout_alignStart="@+id/novo2" />
+            android:layout_below="@+id/onde"
+            android:layout_alignLeft="@+id/onde"
+            android:layout_alignStart="@+id/onde" />
 
         <Button
             android:layout_width="match_parent"
@@ -104,26 +104,28 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/novo1"
-            android:id="@+id/novo1"
-            android:background="#e9eb32"
+            android:text="@string/plane"
+            android:id="@+id/plane"
+            android:background="#e1d43f"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:typeface="sans"
             android:layout_below="@+id/btDelegacy"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:onClick="BotaoPlane" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/novo2"
-            android:id="@+id/novo2"
+            android:text="@string/onde"
+            android:id="@+id/onde"
             android:background="#1975e6"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:typeface="sans"
-            android:layout_below="@+id/novo1"
-            android:layout_centerHorizontal="true" />
+            android:layout_below="@+id/plane"
+            android:layout_centerHorizontal="true"
+            android:onClick="BotaoOnde" />
 
 
     </RelativeLayout>

@@ -1,39 +1,51 @@
 <ScrollView
+
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="40dp"
+    android:padding="05dp"
     android:background= "#efefef"
     android:gravity="center"
     android:fillViewport="true">
-
 
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:shrinkColumns="1,2"
-        android:padding="20dp">
+        android:gravity="center"
+        android:padding="10dp">
 
         <LinearLayout
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:gravity="center">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_gravity="center"
                 android:id="@+id/logo"
                 android:src="@mipmap/icone"
                 android:contentDescription="@string/logomarca" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/voice"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:id="@+id/voice"
+                android:layout_gravity="center_horizontal" />
+
         </LinearLayout>
 
 
         <!-- ROW1 -->
-        <TableRow>
+        <TableRow android:gravity="center">
 
 
             <Button
@@ -41,6 +53,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btn1"
                 android:background="@drawable/img_01"
+                android:gravity="center"
                 android:layout_column="1" />
 
             <Button
@@ -48,18 +61,20 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btn2"
                 android:background="@drawable/img_02"
+                android:gravity="center"
                 android:layout_column="2" />
 
         </TableRow>
 
         <!-- ROW2 -->
-        <TableRow>
+        <TableRow android:gravity="center">
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn3"
                 android:background="@drawable/img_03"
+                android:gravity="center"
                 android:layout_column="1" />
 
             <Button
@@ -67,18 +82,20 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btn4"
                 android:background="@drawable/img_04"
+                android:gravity="center"
                 android:layout_column="2" />
 
         </TableRow>
 
         <!-- ROW3 -->
-        <TableRow>
+        <TableRow android:gravity="center">
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn5"
                 android:background="@drawable/img_05"
+                android:gravity="center"
                 android:layout_column="1" />
 
             <Button
@@ -86,6 +103,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btn6"
                 android:background="@drawable/img_06"
+                android:gravity="center"
                 android:layout_column="2"
                 android:onClick="Sair" />
 
